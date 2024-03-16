@@ -13,6 +13,7 @@ p,h3,li{
 h1,h2{
     font-family: "Lato";
 }
+
 h1{
     color: white;
     font-size: 3rem;
@@ -42,6 +43,11 @@ figure{
     display: flex;
     justify-content: center;
 }
+
+#zoom:hover{
+    cursor: zoom-in;
+}
+
 
 #poste{
     background-color:#782221;
@@ -81,6 +87,10 @@ figure{
 a{
     color: white;
     text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline white;
 }
 
 #photo{
@@ -127,4 +137,13 @@ font-weight: bolder;
     text-indent: 50px;
     padding-left: 20px;
     text-align: justify;
+}
+
+#blury1:hover,#blury2:hover,#blury3:hover{
+    opacity: 80%;
+}
+
+h3:hover,#li1:hover,#li2:hover,#li3:hover,#li4:hover{
+    border-right: solid 5px maroon;
+    
 }
